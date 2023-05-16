@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Project Declaration
+# key: project
+# --
+${1:project$(yas-auto-next (yas-choose-value '("project" "abstract project" "aggregate project" "library project")))} ${2:Name}${3: extends \"$4\"} is
+ $0
+end $2;

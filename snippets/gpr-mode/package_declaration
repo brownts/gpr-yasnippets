@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Package Declaration
+# key: package
+# --
+package ${1:Name$(yas-auto-next (yas-choose-value '("Binder" "Builder" "Check" "Clean" "Compiler" "Cross_Reference" "Documentation" "Eliminate" "Finder" "Gnatls" "Gnatstub" "IDE" "Install" "Linker" "Metrics" "Naming" "Pretty_Printer" "Remote" "Stack" "Synchronize")))}${2: extends ${3:Base_Name}} is
+ $0
+end $1;

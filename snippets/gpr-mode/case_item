@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Case Item
+# key: when
+# expand-env: ((yas-also-auto-indent-first-line t))
+# --
+when "$1" =>
+ $0
